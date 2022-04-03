@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-book Download</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="e-book-download-form">
+        <section id="title">
+          <h1>E-BOOK: MARKETING AUTOMATION</h1>
+          <h2>MARKETING- UND VERTRIEBSPROZESSE</h2>
+          <h2>DIGITALISIEREN & AUTOMATISIEREN</h2>
+        </section>
+
+        <div id="image"></div>
+        <div id="description">
+          <h3>Beschreibung</h3>
+          <p>
+            Alles Wissenswerte rund um Marketing Automation findest Du in diesem
+            E-Book – von der Einführung über erste Kampagnen bis hin zu Best
+            Practices.
+          </p>
+          <p>Du erhältst außerdem:</p>
+          <p>
+            praktische Step-by-Step-Anleitungen nützliche Checklisten wertvolle
+            Praxis-Einblicke zahlreiche Hinweise zum Weiterlesen.
+          </p>
+          <p>
+            Bonus: Die wichtigsten Dos & Don´ts in der Marketing Automation
+            verraten Dir 11 der hochkarätigsten Experten aus dem Evalanche
+            Partner-Netzwerk.
+          </p> 
+        </div>
+
+        <form action="e-book-download">
+          <legend><h3>Jetzt das E-Book kostenlos herunterladen:</h3></legend>
+          <label id="label-vorname" for="vorname">Vorname</label>
+          <input type="text" id="vorname" name="vorname" />
+          <label id="label-nachname" for="nachname">Nachname</label>
+          <input type="text" id="nachname" name="vorname" />
+          <label id="label-email" for="email">E-Mail</label>
+          <input type="email" id="email" name="email" />
+          <label id="label-telefon" for="telefon">Telefon</label>
+          <input type="tel" id="telefon" name="telefon" />
+          <label id="label-firma" for="firma">Firma</label>
+          <input type="tex" id="firma" name="firma" />
+          <label id="label-position" for="position">Position</label>
+          <input type="text" id="position" name="position" />
+          <label id="label-unternehmensgröße" for="unternehmensgröße">Unternehmensgröße</label>
+          <select id="unternehmensgröße" name="unternehmensgröße">
+            <option value="bitte-wählen">Bitte wählen</option>
+            <option value="0-50">0-50</option>
+            <option value="50-150">50-150</option>
+            <option value=">150">>150</option>
+          </select>
+          <div id="submit-section">
+            <input id="checkbox" type="checkbox" />
+            <span>
+              Ich habe die Einverständnis-Erklärung gelesen und bin
+              einverstanden.* Einverständnis-Erklärung: Die Informationen zum
+              <a href=""> Datenschutz</a> und zu den <a href=""> AGB</a> habe
+              ich zur Kenntnis genommen und stimme diesen hiermit zu. Ich
+              akzeptiere, dass meine personenbezogenen Daten für Werbezwecke
+              durch die OnlineMarketing.de GmbH genutzt werden können. Die
+              Ansprache erfolgt per E-Mail oder Telefon. Die Datenweitergabe an
+              den Whitepaperanbieter (SC-Networks GmbH, Würmstraße 4, 82319
+              Starnberg) ist davon umfasst. Der Widerruf zur Zustimmung ist
+              jederzeit möglich (per Mail an info@onlinemarketing.de).</span
+            >
+
+            <button type="submit">Jetzt anfordern</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
